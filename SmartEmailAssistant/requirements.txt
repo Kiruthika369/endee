@@ -1,0 +1,19 @@
+# Smart Email Assistant — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML / Embeddings
+sentence-transformers==2.7.0
+torch>=2.0.0
+transformers>=4.35.0
+
+# Web UI
+streamlit>=1.35.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# OpenAI (optional — only needed if USE_OPENAI=true)
+openai>=1.30.0
+
+# Utilities
+python-dotenv>=1.0.0

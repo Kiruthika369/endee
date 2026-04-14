@@ -1,0 +1,110 @@
+[
+  {
+    "id": "email_001",
+    "sender": "hr@techcorp.com",
+    "recipient": "student@university.edu",
+    "subject": "Internship Offer - Software Engineering Summer 2024",
+    "body": "Dear Candidate, We are pleased to offer you a Summer Internship position at TechCorp as a Software Engineering Intern. The internship will run from June 1 to August 31, 2024. You will work with our backend team on microservices architecture. The stipend is $2000/month. Please confirm your acceptance by May 15. Looking forward to having you on the team!",
+    "date": "2024-04-10",
+    "category": "internship"
+  },
+  {
+    "id": "email_002",
+    "sender": "manager.raj@company.com",
+    "recipient": "dev@company.com",
+    "subject": "Project Alpha - Sprint Review Notes",
+    "body": "Hi Team, Following up on today's sprint review for Project Alpha. The manager highlighted that the API integration milestone is delayed by 3 days. We need to prioritize the payment gateway module this week. Please update your Jira tickets accordingly. The client demo is scheduled for Friday at 3 PM. Make sure the staging environment is stable before that. Let me know if you have any blockers.",
+    "date": "2024-04-12",
+    "category": "project"
+  },
+  {
+    "id": "email_003",
+    "sender": "admin@university.edu",
+    "recipient": "student@university.edu",
+    "subject": "Final Exam Schedule - May 2024",
+    "body": "Dear Students, The final examination schedule for May 2024 has been released. Your exams are: Data Structures on May 5th at 9 AM, Operating Systems on May 8th at 2 PM, and Machine Learning on May 12th at 10 AM. Hall tickets will be available from April 28. Ensure you carry your university ID to the examination hall. Contact the exam cell for any discrepancies in the schedule.",
+    "date": "2024-04-08",
+    "category": "academic"
+  },
+  {
+    "id": "email_004",
+    "sender": "noreply@github.com",
+    "recipient": "dev@company.com",
+    "subject": "Security Alert: New login to your GitHub account",
+    "body": "Hi there, We noticed a new sign-in to your GitHub account from a device we don't recognize. Location: Chennai, Tamil Nadu. Device: Chrome on Windows. If this was you, you can ignore this email. If you did not sign in, please secure your account immediately by changing your password and enabling two-factor authentication. Visit github.com/settings/security for more options.",
+    "date": "2024-04-11",
+    "category": "security"
+  },
+  {
+    "id": "email_005",
+    "sender": "priya.sharma@startup.io",
+    "recipient": "founder@startup.io",
+    "subject": "Investment Meeting with Sequoia - Prep Notes",
+    "body": "Hi, I wanted to share the prep notes for our Sequoia meeting next Tuesday. We should highlight our 40% month-over-month growth and the 500+ active enterprise clients. The investors are particularly interested in our AI-driven analytics module. Please prepare a 5-minute demo of the dashboard. Also bring the updated financial projections. Our current runway is 18 months. Key differentiator to emphasize: real-time data processing at 1M events/second.",
+    "date": "2024-04-09",
+    "category": "business"
+  },
+  {
+    "id": "email_006",
+    "sender": "manager.raj@company.com",
+    "recipient": "dev@company.com",
+    "subject": "Code Review Feedback - Authentication Module",
+    "body": "Hello, I reviewed the authentication module you submitted yesterday. Overall good work! A few suggestions: 1) The JWT token expiry should be configurable via environment variables, not hardcoded. 2) Add rate limiting to the login endpoint to prevent brute force attacks. 3) The password hashing uses MD5 - please switch to bcrypt. 4) Add unit tests for edge cases like expired tokens and invalid refresh tokens. Great job on the OAuth2 integration — it's clean and well-documented.",
+    "date": "2024-04-13",
+    "category": "project"
+  },
+  {
+    "id": "email_007",
+    "sender": "google.jobs@google.com",
+    "recipient": "student@university.edu",
+    "subject": "Your Application to Google - Software Engineer Internship",
+    "body": "Thank you for applying to the Software Engineer Internship position at Google. We have reviewed your application and would like to invite you to the next stage of our hiring process. You have been scheduled for a technical phone screen on April 20, 2024 at 11:00 AM IST. The interview will be 45 minutes covering data structures, algorithms, and problem-solving. Please confirm your availability by replying to this email. Prepare using LeetCode medium-level problems.",
+    "date": "2024-04-07",
+    "category": "internship"
+  },
+  {
+    "id": "email_008",
+    "sender": "billing@aws.amazon.com",
+    "recipient": "dev@company.com",
+    "subject": "AWS Invoice - March 2024 - $847.32",
+    "body": "Your AWS bill for March 2024 is ready. Total amount due: $847.32. Breakdown: EC2 instances (t3.medium x 3): $210.50, RDS PostgreSQL (db.t3.small): $185.00, S3 storage (2.3 TB): $53.90, CloudFront CDN: $120.80, Lambda invocations (45M): $9.00, Data transfer: $268.12. Payment will be auto-charged to your card ending in 4242 on April 15. Download your detailed invoice from the AWS Billing Console.",
+    "date": "2024-04-05",
+    "category": "billing"
+  },
+  {
+    "id": "email_009",
+    "sender": "teamlead@company.com",
+    "recipient": "dev@company.com",
+    "subject": "Promotion Discussion - Q2 2024 Performance Review",
+    "body": "Hi, I wanted to let you know that I've submitted your promotion recommendation to the engineering director. Your work on the microservices migration was exceptional — you reduced API response time by 60% and the system now handles 3x more traffic. The committee will review all nominations next week. If approved, your new title would be Senior Software Engineer with a 25% salary increase effective June 1. I'm rooting for you! Let me know if you have any questions about the process.",
+    "date": "2024-04-14",
+    "category": "career"
+  },
+  {
+    "id": "email_010",
+    "sender": "newsletter@aiweekly.com",
+    "recipient": "dev@company.com",
+    "subject": "This Week in AI: GPT-5, Gemini Updates, and Open Source LLMs",
+    "body": "This week's top AI stories: OpenAI announced GPT-5 with improved reasoning and 128K context window. Google released Gemini 1.5 Pro with 1M token context. Meta's Llama 3 is now available with 70B parameters. Mistral released a new code-specialized model. RAG pipelines are becoming the standard for enterprise AI deployments — 78% of Fortune 500 companies now use some form of retrieval-augmented generation. Highlighted paper: 'Attention Is All You Need' turns 7 this week. Vector databases market is projected to reach $4.3B by 2028.",
+    "date": "2024-04-06",
+    "category": "newsletter"
+  },
+  {
+    "id": "email_011",
+    "sender": "mentor@techcorp.com",
+    "recipient": "intern@techcorp.com",
+    "subject": "Internship Project Assignment - RAG Pipeline Development",
+    "body": "Welcome to TechCorp! Your internship project has been assigned: you'll be building a Retrieval-Augmented Generation (RAG) pipeline for our internal knowledge base. Tech stack: Python, LangChain, Pinecone vector DB, and OpenAI GPT-4. Timeline: 8 weeks. Week 1-2: Data preprocessing and embedding. Week 3-4: Vector store setup and search. Week 5-6: LLM integration and RAG pipeline. Week 7-8: UI development and testing. Your mentor will be Priya (priya@techcorp.com). Daily standups at 10 AM. Excited to see what you build!",
+    "date": "2024-04-01",
+    "category": "internship"
+  },
+  {
+    "id": "email_012",
+    "sender": "ceo@company.com",
+    "recipient": "all@company.com",
+    "subject": "Company All-Hands Meeting - Q1 Results and Q2 Roadmap",
+    "body": "Team, I'm excited to share our Q1 2024 results. Revenue grew 35% YoY to $4.2M. We onboarded 127 new enterprise clients. Our NPS score reached 72, up from 58 last quarter. In Q2, we're focusing on three pillars: 1) AI-powered features across all products, 2) Expanding to Southeast Asian markets, 3) Achieving SOC2 Type II compliance. The all-hands meeting will be on April 18 at 4 PM in the main conference room. Lunch will be provided. Please come with your team updates and questions for the leadership panel.",
+    "date": "2024-04-03",
+    "category": "company"
+  }
+]
